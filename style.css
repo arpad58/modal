@@ -11,7 +11,6 @@ body {
 
 .modal-center {
     background-color: #fff;
-    padding: 1rem;
     position: absolute;
     left: 25%;
     top: 3em;
@@ -64,3 +63,11 @@ body {
     padding: .5rem 1rem;
     position: relative;
 }
+
+@media only screen and (max-width: 560px) {
+    .modal-center, .modal-content{
+      left: 0;
+      width: 100%;
+    }
+    
+  }
