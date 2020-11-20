@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.modal-center {
+    background-color: #fff;
+    padding: 1rem;
+    position: absolute;
+    left: 25%;
+    top: 3em;
+    width: 50%;
+}
+
+.modal-content {
+    border: rgb(88, 88, 88) 1px solid;     
+}
+
+.close {
+    display: flex;         
+}
+
+.btn.btn-close {
+    background: transparent;
+    border: 0; 
+    margin: .5rem;  
+}
+
+.container {  
+    padding: 0 2rem 2rem 2rem;
+}
+
+.modal-title {
+    margin-top: 0;
+}
+
+.modal-footer {  
+    display: flex;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+}
+
+.buttons-container {
+    position: relative;
+    text-align: right;      
+}
+
+.button-okay {
+    background-color: green;
+    color: white;
+    padding: .5rem 1rem;
+    position: relative;
+}
+
+.button-cancel {
+    background-color: red;
+    color: white;
+    padding: .5rem 1rem;
+    position: relative;
+}
