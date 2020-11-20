@@ -7,67 +7,61 @@ body {
     padding: 0;
     position: absolute;
     width: 100%;
+    font-family: sans-serif, Arial, Helvetica;
+    line-height: 1.5rem;
+    color: rgb(128, 128, 128);
 }
 
 .modal-center {
-    background-color: #fff;
+    background-color: #fff;   
     position: absolute;
     left: 25%;
-    top: 3em;
+    top: 4em;
     width: 50%;
 }
 
 .modal-content {
-    border: rgb(88, 88, 88) 1px solid;     
-}
-
-.close {
-    display: flex;         
+    border: rgb(160, 159, 159) 1px solid;
 }
 
 .btn.btn-close {
     background: transparent;
     border: 0; 
-    margin: .5rem;  
+    margin: .5rem; 
+    margin-left: 90%; 
+    font-size: 1.3rem;
+    font-weight: bold;
 }
 
-.container {  
-    padding: 0 2rem 2rem 2rem;
+.container {   
+    padding: 0 2rem 4rem 2rem;
 }
 
 .modal-title {
     margin-top: 0;
 }
 
-.modal-footer {  
-    display: flex;
-    flex-wrap: nowrap;
-    box-sizing: border-box;
+.buttons-container {   
+    display: inline-block;
+    float: right;  
 }
 
-.buttons-container {
-    position: relative;
-    text-align: right;      
-}
-
-.button-okay {
-    background-color: green;
+.button-okey {
+    background-color: rgb(54, 170, 54);
     color: white;
-    padding: .5rem 1rem;
-    position: relative;
+    padding: .5rem 1rem;    
 }
 
 .button-cancel {
     background-color: red;
     color: white;
     padding: .5rem 1rem;
-    position: relative;
+    margin-left: .3rem;    
 }
 
 @media only screen and (max-width: 560px) {
     .modal-center, .modal-content{
       left: 0;
       width: 100%;
-    }
-    
+    }   
   }
