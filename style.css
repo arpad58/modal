@@ -13,12 +13,14 @@ body {
 }
 
 .modal-center {
-    background-color: #fff;   
+    background-color: rgb(255, 255, 255);   
     position: absolute;
     left: 25%;
     top: 10em;
     width: 50%;
 }
+
+.modal-center[aria-hidden='true'] { display: none; } 
 
 .modal-content {
     border: rgb(160, 159, 159) 1px solid;
