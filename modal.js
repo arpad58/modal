@@ -1,5 +1,4 @@
-let element = document.querySelector('.showModalBtn');
-
-showModalBtn.addEventListener("click", () => {
-    modal - center[aria - hidden='false'];
-})
+document.querySelector('.showModalBtn')
+    .addEventListener("click", function () {
+        document.querySelector('.modal-center').hidden = true;
+    }, false);

@@ -20,7 +20,9 @@ body {
     width: 50%;
 }
 
-.modal-center[aria-hidden='true'] { display: none; } 
+.modal-center[aria-hidden='true'] {
+     display: none; 
+} 
 
 .modal-content {
     border: rgb(160, 159, 159) 1px solid;
