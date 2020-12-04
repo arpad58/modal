@@ -4,16 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modal</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <button class="showModalBtn">
-        <h1>Show Modal</h1>
+
+    <button class="open-modal-btn">
+        <h3 class="open-text">Open Modal</h3>
     </button>
 
-    <div class="modal-center" aria-hidden='true'>
+    <div class="modal modal__overlay">
+
         <div class="modal-content">
             <div class="close">
                 <button type="button" class="btn btn-close">
@@ -47,6 +49,7 @@
             </main>
         </div>
     </div>
+
     <script src="./modal.js"></script>
 
 </body>
